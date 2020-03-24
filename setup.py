@@ -3,7 +3,7 @@
 """
     Quant Trading Network API
 
-    This API will use JSON.         JSON looks like this:                {         \"key\": \"value\",         \"anotherKey\": \"anotherValue\"       }  # noqa: E501
+    This API will use JSON. JSON looks like this: { \"key\": \"value\", \"anotherKey\": \"anotherValue\" }  # noqa: E501
 
     OpenAPI spec version: 1.0.0
     Contact: support@quant-trading.network
@@ -13,7 +13,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "quant-trading-api"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 # To install the library, run the following
 #
 # python setup.py install
@@ -36,9 +36,7 @@ setup(
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
-    long_description="""\
-    This API will use JSON.         JSON looks like this:                {         \&quot;key\&quot;: \&quot;value\&quot;,         \&quot;anotherKey\&quot;: \&quot;anotherValue\&quot;       }  # noqa: E501
-    """,
+    long_description="Python library for connecting to the Quant-trading.Network API.",
     classifiers=[
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
